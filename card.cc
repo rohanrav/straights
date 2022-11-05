@@ -97,7 +97,7 @@ std::ostream& operator<<(std::ostream& out, const Card& card) {
     suit = 'D';
   } else if (card.getSuit() == Suit::HEARTS) {
     suit = 'H';
-  } else {  // SPADES
+  } else {
     suit = 'S';
   }
 
